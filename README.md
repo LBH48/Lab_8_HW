@@ -18,6 +18,7 @@ sin(x) + sin²(x) + ... + sinⁿ(x)
 8. КОНЕЦ
 
 **Блок-схема:**
+```mermaid
 flowchart TD
     Start([Начало])
     Input[/Ввод n, x/]
@@ -44,6 +45,7 @@ flowchart TD
     Body3 --> Cond
     Cond -- Нет --> Output
     Output --> End
+```
 
 ## 2. Реализация программы
 
